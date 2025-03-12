@@ -1,0 +1,1 @@
+This is a hotel management application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The app allows users to browse available rooms, make bookings, and manage reservations. It also integrates Stripe for secure payments and Nodemailer for booking confirmations via email.
