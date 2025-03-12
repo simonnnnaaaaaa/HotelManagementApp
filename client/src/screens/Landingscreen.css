@@ -1,0 +1,9 @@
+.landing {
+    background-image: url('../../public/design.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}

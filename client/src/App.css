@@ -1,0 +1,228 @@
+/* import 'antd/dist/antd.css'; */
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.input-group-text {
+  cursor: pointer;
+}
+
+.password-container {
+  
+  position: relative;
+}
+
+.password-input {
+  padding-right: 30px; 
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.password-input-container .form-control {
+  padding-right: 30px;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+.profile-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile-card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.profile-card p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.profile-card p span {
+  font-weight: bold;
+  color: #333;
+}
+
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-card, .history-card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 4px;
+  width: 80%; 
+  max-width: 600px; 
+}
+
+.filter-sort-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Carousel .bigimg {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  padding: 0;
+  border: none;  
+}
+
+.carousel-item {
+  margin: 0;
+  padding: 0;
+}
+.carousel .carousel-item img {
+  display: block; 
+  width: 100%; 
+  height: auto; 
+  margin: 0 auto; 
+}
+
+.carousel .carousel-item.active,
+.carousel .carousel-item-next,
+.carousel .carousel-item-prev {
+  display: block;
+}
+
+.bs .row {
+  margin-bottom: 10px;
+}
+
+select.form-control {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.container .row {
+  margin-bottom: 10px;
+}
+
+
+
+.container .row {
+  margin-bottom: 10px;
+}
+
+select.form-control {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.row.justify-content-start {
+  justify-content: flex-start !important;
+}
+
+select.sortare {
+  margin-top: 20px !important;
+  margin-bottom: 0px;
+  margin-left: 150px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #000 !important; 
+}
+
+.textarea-control {
+  resize: none; 
+}
+
+.room-description {
+  white-space: pre-wrap; 
+}
+
+
+
+.booking-row {
+  
+}
+
+.StripeCheckout input {
+  font-weight: bold !important;
+}

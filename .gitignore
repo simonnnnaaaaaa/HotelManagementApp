@@ -1,0 +1,19 @@
+# 🔒 Fișiere sensibile
+.env
+
+# 📦 Module Node.js
+node_modules/
+
+# 🏗️ Fișiere generate automat
+dist/
+build/
+
+# ⚙️ Fișiere de sistem și configurație
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# 🔧 Căsuță de blocaj (lock files)
+package-lock.json
+yarn.lock

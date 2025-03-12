@@ -1,0 +1,16 @@
+.blocked {
+    background-color: #ff6b6b !important;
+    color: white !important;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.react-datepicker__day--highlighted-custom-1 {
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 50%;
+}
+
+
+
+
